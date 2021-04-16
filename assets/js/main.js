@@ -44,13 +44,14 @@ function logMeIn(){
 			// const uniqueNumber = "UID"+Math.floor(Math.random() * 9999999);
 			aptrinsic("identify",
 			{
-				"id" : userId,
+				"id" : email,
 				"email": email,
 				"firstName": firstName,
 				"lastName": lastName
 
 			},{
-				"id": domain //Required				
+				"id": domain+"123" //Required	
+				"Name": domain
 			});
 			console.log(email,firstName,lastName,userId,domain);
 			alert("Logged in user id: "+ firstName);
