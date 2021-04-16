@@ -51,7 +51,7 @@ function logMeIn(){
 
 			},{
 				"id": domain+"123" //Required	
-				"Name": domain
+				"AccountName": domain
 			});
 			console.log(email,firstName,lastName,userId,domain);
 			alert("Logged in user id: "+ firstName);
