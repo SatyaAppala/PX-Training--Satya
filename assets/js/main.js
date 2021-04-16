@@ -53,7 +53,6 @@ function logMeIn(){
 				"id": domain+"123", //Required	
 				"name": domain
 			});
-			console.log(email,firstName,lastName,userId,domain);
 			alert("Logged in user id: "+ firstName);
 			window.location = "main.html";	
 		} else{
