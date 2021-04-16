@@ -50,7 +50,7 @@ function logMeIn(){
 				"lastName": lastName
 
 			},{
-				"id": domain+"123" //Required	
+				"id": domain+"123", //Required	
 				"name": domain
 			});
 			console.log(email,firstName,lastName,userId,domain);
